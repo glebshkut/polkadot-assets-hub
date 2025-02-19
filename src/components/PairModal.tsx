@@ -69,7 +69,7 @@ export default function PairModal({ pair, onClose }: PairModalProps) {
       className={`fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 ${isFullScreen ? "p-0" : "p-4"}`}
     >
       <div
-        className={`bg-white dark:bg-gray-800 rounded-lg shadow-xl flex flex-col ${isFullScreen ? "w-full h-full" : "w-11/12 max-w-6xl max-h-[90vh]"}`}
+        className={`bg-white dark:bg-gray-800 rounded-lg shadow-xl flex flex-col ${isFullScreen ? "w-full h-full" : "w-11/12 max-w-6xl max-h-[90vh] rounded-xl"}`}
       >
         <div className="flex justify-between items-center p-4 border-b border-gray-200 dark:border-gray-700">
           <h2 className="text-xl font-bold text-gray-900 dark:text-white">{pair.pair} Details</h2>
